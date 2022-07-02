@@ -1,14 +1,12 @@
 body{
     font-family:'Montserrat', sans-serif ;
+    text-align: center;
 }
 
 
-h1{
+h1,h2,h3{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-
+  
 
 }
 
@@ -24,14 +22,21 @@ p{
     color: #8f8f8f;
 }
 
-#title{
-    background-color: #ff4c68;
-    color: #fff;
-}
 .container-fluid{
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
+    
+    
 }
 
+
+/* headings */
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    
+}
 
 /* navigation bar */
 
@@ -51,7 +56,7 @@ p{
 
 .nav-link{
     font-size: 1.2rem;
-   
+    
 }
 
 /* download-button */
@@ -61,7 +66,15 @@ p{
 i{margin: 0 5px;}
 
 
-/* title image */
+/* title section*/
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
 
 
 .title-image{
@@ -70,7 +83,7 @@ i{margin: 0 5px;}
     
     /* z index is not working here  -- image gets bigger with posn absolute*/
 
-    /* added posn relative to aprent div of image -- it worked */
+    /* added posn relative to parent div of image -- it worked */
     position:absolute;
     right:30%;
     
@@ -79,17 +92,17 @@ i{margin: 0 5px;}
 /* feature section */
 
 #features{
-    padding: 7% 15%;
+  
     background-color:#fff;
     position: relative;
     z-index: 1;
 }
 
 
-.feature-box{
-    text-align: center;
+/* .feature-box{
     
-}
+    
+} */
 
 .icon{
     color: #ef8172;
@@ -104,8 +117,8 @@ i{margin: 0 5px;}
 
 #testimonials{
 
-    padding: 7% 15%;
-    text-align: center;
+    
+    
     background-color:#ef8172 ;
     color: #ffff;
 }
@@ -117,15 +130,12 @@ i{margin: 0 5px;}
 
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
 
 /* press */
 
 #press{
     background-color:#ef8172 ;
-    text-align: center;
+   
     padding-bottom: 3%;
 
 }
@@ -140,7 +150,7 @@ margin: 20px 20px 50px;
 
 #pricing{
     padding: 100px;
-    text-align: center;
+    
 }
 
 .pricing-column{
@@ -153,8 +163,7 @@ margin: 20px 20px 50px;
 #cta{
     background-color:#ff4c68;
     color: #fff;
-    text-align: center;
-    padding: 7% 15%;
+   
 }
 
 .cta-heading{
@@ -164,9 +173,8 @@ margin: 20px 20px 50px;
 
 #footer{
     background-color: #fff;
-    text-align: center;
-    padding: 7% 15% ;
-  
+   
+    
     
 }
 
